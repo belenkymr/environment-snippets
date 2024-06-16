@@ -7,7 +7,7 @@
             "name": "Debug HardHat Tests",
             "skipFiles": ["<node_internals>/**"],
             "program": "${workspaceFolder}/node_modules/.bin/hardhat",
-            "args": ["test", "test/Transfers.ts"],
+            "args": ["test", "<YOUR_HARDHAT_TEST_FILE>.ts"],
             "cwd": "${workspaceFolder}",
             "autoAttachChildProcesses": true,
             "sourceMaps": true,
